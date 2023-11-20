@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Accessoires de Téléphone</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="Images/vecteezy_ringing-phone-call-icon-vector_6085370.jpg"
+            alt="Logo"
+          />
+          <h1>Accessoires téléphone</h1>
+        </div>
+
+        <div class="search-form">
+          <input type="text" placeholder="Entrez votre recherche..." id="searchInput" />
+          <button onclick="searchAccessories()">Rechercher</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <section class="product-container" id="productContainer">
+      <!-- Cards -->
+      <div class="card" data-name="accessoire1" data-price="54.900">
+        <img src="Images/image1.jpeg" alt="Accessoire 1" />
+        <h2>POWERBANK REDMI 10000MAH</h2>
+        <p>Prix :54,900 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire1')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+
+      <div class="card" data-name="accessoire2" data-price="3.500">
+        <img src="Images/image2.jpeg" alt="Accessoire 2" />
+        <h2>ADAPTATEUR OTG MICRO USB TO USB 2.0</h2>
+        <p>Prix :3,500 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire2')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+
+      <div class="card" data-name="accessoire3" data-price="59.900">
+        <img src="Images/iamge3.jpeg" alt="Accessoire 3" />
+        <h2>CASQUE BLUETOOTH P9 PLUS</h2>
+        <p>Prix :59,900 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire3')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+
+      <div class="card" data-name="accessoire4" data-price="8.900">
+        <img src="Images/iamge4.jpeg" alt="Accessoire 4" />
+        <h2>MOBILE GAMING FINGER SLEEVE</h2>
+        <p>Prix :8,900 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire4')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+
+      <div class="card" data-name="accessoire5" data-price="109.000">
+        <img src="Images/iamge5.jpeg" alt="Accessoire 5" />
+        <h2>BRACELET XIAOMI MI SMART BAND 5</h2>
+        <p>Prix :109,000 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire5')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+
+      <div class="card" data-name="accessoire6" data-price="30.000">
+        <img src="Images/6.jpeg " alt="Accessoire 6 " />
+        <h2>XIAOMI MI PHOTO PRINTER PAPER</h2>
+        <p>Prix :30,000 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire6')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+
+      <div class="card" data-name="accessoire7" data-price="106.000">
+        <img src="Images/7.jpeg  " alt="Accessoire 7" />
+        <h2>Chargeur Sumsung 25W</h2>
+        <p>Prix :106,000 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire7')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+
+      <div class="card" data-name="accessoire8" data-price="30,000">
+        <img src="Images/8.jpeg " alt="Accessoire 8" />
+        <h2>Microphone AUX Noir</h2>
+        <p>Prix :30,000 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire8')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+
+      <div class="card" data-name="accessoire9" data-price="42.000">
+        <img src="Images/9.jpeg " alt="Accessoire 9" />
+        <h2>BAGUETTE SELFIE L01</h2>
+        <p>Prix :42,000 DT</p>
+        <button class="btn-buy" onclick="buyAccessory('accessoire9')">
+          Acheter
+        </button>
+        <button class="btn-description">Description</button>
+      </div>
+    </section>
+    <br />
+    <div id="total-price">
+      <p>Total: DT 0.00</p>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Accessoires Téléphone</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
